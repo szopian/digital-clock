@@ -18,8 +18,8 @@
     text-align: center;
 }
 .hours, .minutes, .seconds, .amorpms{
-    min-width: 5em;
-    height: 5em;
+    min-width: 7em;
+    height: 7em;
     /* background-color: #dedede; */
     backdrop-filter: blur(5px);
     padding: 2.5em;
@@ -28,19 +28,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     box-shadow: 1px 1px 2px #5b585e, -1px -1px 2px #acabad;
     
 }
 
 .hour, .minute, .second, .amorpm {
-    font-size: 3.5em;
-    color: white;
-    text-shadow: 1px 1px 3px #e4dddd;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 2px 2px 3px #e211bf;
     letter-spacing: 2px;
 }
 
